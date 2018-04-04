@@ -1,2 +1,3 @@
 # PHPDieppe
-Exercice PHP
+## Exercice PHP
+### exercice php première partie
