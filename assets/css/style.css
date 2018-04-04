@@ -3,7 +3,7 @@
 header 
 {
     background-color: whitesmoke;
-    color: rgb(253, 0, 0);
+    height: 10rem;
 }
 
 header nav li :hover 
@@ -15,4 +15,12 @@ header nav li :hover
 {
     display: flex;
     justify-content: space-around;
+    font-size: 200%;
+    list-style: none;
+    
+}
+
+a 
+{
+    color: green;
 }
