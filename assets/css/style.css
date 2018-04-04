@@ -1,0 +1,18 @@
+
+
+header 
+{
+    background-color: whitesmoke;
+    color: rgb(253, 0, 0);
+}
+
+header nav li :hover 
+{
+ background-color : red;
+}
+
+#menu 
+{
+    display: flex;
+    justify-content: space-around;
+}
