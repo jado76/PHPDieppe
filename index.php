@@ -4,7 +4,8 @@
 
 <?php
 include "./functions/callPage.php";
-
 include "./includes/hearder.php";
+
+callPage();
 
 include "./includes/footer.php";
