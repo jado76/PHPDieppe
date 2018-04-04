@@ -1,0 +1,26 @@
+
+
+header 
+{
+    background-color: whitesmoke;
+    height: 10rem;
+}
+
+header nav li :hover 
+{
+ background-color : red;
+}
+
+#menu 
+{
+    display: flex;
+    justify-content: space-around;
+    font-size: 200%;
+    list-style: none;
+    
+}
+
+a 
+{
+    color: green;
+}
