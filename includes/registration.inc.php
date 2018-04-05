@@ -35,7 +35,26 @@ if(count($erreurs) > 0) {
     }
 
     else {
-        echo "Pas d'erreurs";
+        $mdp = sha1($mdp);
+        $connection = mysqli_connect("localhost", "phpdieppe", "phpdieppe", "phpdieppe");
+        $requete = "INSERT INTO T_USERS
+                    (usename, usefirstname,	usemail, userpassword, id_role)
+                    VALUES('$nom', '$prenom', '$mail', '$mdp', 3)";
+
+        if (!$connection) {
+            die("Erreur MySQL " . mysqli_connect_errno() . " | " . mysqli_connect_error());
+        }
+
+        if(mysqli_query($connection, $requete)){
+         echo "Données engristrées";       
+        }
+
+        else {
+            echo "Erreur";
+            include "formRegistration.php";
+        }
+
+        mysqli_close($connection);
     }
 
 
