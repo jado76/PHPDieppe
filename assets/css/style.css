@@ -15,7 +15,7 @@ header nav li :hover
 {
     display: flex;
     justify-content: space-around;
-    font-size: 200%;
+    font-size: 2000%;
     list-style: none;
     
 }
