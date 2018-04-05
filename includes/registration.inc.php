@@ -15,8 +15,23 @@ if (isset($_POST['formRegistration'])) {
     if ($mail == "") array_push($erreurs, "Veuillez saisir votre mail");
     if ($mdp == "") array_push($erreurs, "Veuillez saisir votre mot de passe");
 
-    if(count($erreurs) > 0) {
-        echo "Erreurs";
+if(count($erreurs) > 0) {
+       $message = "<ul>";
+
+        for($i = 0; $i< count($erreurs) ; $i++ ){
+            $message .= "<li>";
+             $message .= $erreurs[$i];
+            $message .= "</li>";
+
+         }
+
+    $message .= "</ul>";
+
+    echo "$message";
+    
+    include "formRegistration.php";
+
+
     }
 
     else {
@@ -27,7 +42,7 @@ if (isset($_POST['formRegistration'])) {
 }
 
 else {
-    echo "Je ne vient pas du formulaire";
+    echo "Je ne viens pas du formulaire";
     include "formRegistration.php";
 }
 
