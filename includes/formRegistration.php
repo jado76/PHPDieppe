@@ -16,9 +16,9 @@
         <input type="password" name="mpd" />
     </div>
     <div>
-        <input type="reset" value="effacer" />
-        <input type="submit" value="envoyer" />
+        <input type="reset" value="Effacer" />
+        <input type="submit" value="Envoyer" />
     </div>
     <input type="hidden" name="formRegistration" />
-    
+
 </form>

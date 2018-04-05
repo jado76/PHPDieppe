@@ -22,5 +22,10 @@ header nav li :hover
 
 a 
 {
-    color: green;
+    color: rgb(26, 128, 0);
+}
+
+footer 
+{
+    background-color: whitesmoke;
 }
