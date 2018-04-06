@@ -64,4 +64,3 @@ else {
     echo "Je ne viens pas du formulaire";
     include "formRegistration.php";
 }
-
