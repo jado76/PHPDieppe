@@ -15,12 +15,18 @@ header nav li :hover
 {
     display: flex;
     justify-content: space-around;
-    font-size: 200%;
+    font-size: 40px;
     list-style: none;
     
 }
 
 a 
 {
-    color: green;
+    color: rgb(26, 128, 0);
+}
+
+footer 
+{
+    background-color: whitesmoke;
+    width: 100%;
 }
